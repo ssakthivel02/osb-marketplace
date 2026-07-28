@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "apiBase": "/api/v1/marketplace",
+  "authenticationRequired": true,
+  "tenantIsolation": "server-authoritative",
+  "supportedLocales": ["en-GB", "ta"],
+  "listingStates": ["draft", "review", "published", "suspended", "retired"],
+  "sellerVerificationRequired": true,
+  "minorPurchasesRequireGuardian": true,
+  "idempotencyRequired": true,
+  "auditRequired": true,
+  "priceCurrencyImmutableAfterOrder": true,
+  "prohibitedData": ["card-number", "cvv", "credentials"],
+  "retentionDays": {"order": 2555, "audit": 2555, "abandonedCart": 30}
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "paymentProviderTokenisationRequired": true,
+  "storeRawCardData": false,
+  "strongCustomerAuthentication": "provider-enforced-where-required",
+  "refundStates": ["requested", "review", "approved", "rejected", "processed"],
+  "refundApprovalRequired": true,
+  "manualRefundDualApprovalThresholdGBP": 500,
+  "chargebackAuditRequired": true,
+  "webhookSignatureRequired": true,
+  "webhookReplayWindowSeconds": 300,
+  "settlementReconciliationRequired": true
+}
